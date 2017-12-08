@@ -1,0 +1,43 @@
+body {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/cb/Victory_Memorial_Parkway_Snow%2C_Minneapolis%2C_Minnesota_%2824417658216%29.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      height: 100vh;
+  }
+}
+
+h3 {
+  	color: 	#4169E1;
+}
+
+h1 {
+  font-style: monospace;
+  color: 	#4169E1;
+}
+
+caption {
+  margin-bottom: -5px;
+  border: 2px solid black;
+  font-size: 250%;
+  color:	#8B0000
+}
+
+.vikingslogo {
+  height: 240px;
+  width: 260px;
+}
+
+.winter {
+  height: 150px;
+  width: 200px;
+}
+
+.pizza {
+  height: 240px;
+  width: 200px;
+}
+
+#Pictures {
+  border: 2px solid black;
+}
