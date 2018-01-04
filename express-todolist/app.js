@@ -46,7 +46,7 @@ app.post('/todo-list/:todoListId/todo/:id/complete', function(request, response)
 app.post('/todo-list/:todoListId/todo/new', function(request, response){
   TodoList.findById(request.params.todoListId).then(function(todoList){
     return todoList.createTodo({
-      name: request.body.name,
+      name: request.body.name, 
       isComplete: false
     })
   }).then(function(todo){
