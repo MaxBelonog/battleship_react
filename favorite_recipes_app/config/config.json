@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "learn",
+    "password": "postgres",
+    "database": "recipe_list",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "learn",
+    "password": "postgres",
+    "database": "recipe_list_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
